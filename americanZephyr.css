@@ -23,4 +23,7 @@ main dl.cat {
     color: blue;
     border: solid 1px rgb(173, 173, 250); 
     border-radius: 7px;
+    padding: 20px;
+    margin: 50px;
+    background-color: #e9e1be;
 }
