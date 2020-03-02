@@ -1,30 +1,44 @@
 /* css reset */
-body, p, h1, h2, h3, h4, h5, h6, {
+body, p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Source Sans Pro';
+    background-color: #F5E7DC 
 }
 
 /* box moble fix here */
 * { -moz-box-sizing: border-box; -webkit-box-sizing: 
     border-box; box-sizing: border-box; }
 
-
-main ul.dog {
-    color: red;
-    list-style: square;
+nav {
+background-color: #F2D6BD;
+font-family: "Verdana";
+}
+nav ul.mynav li {
+    float: left;
+    list-style-type: none;
+}
+nav ul.mynav li a {
+    display: block;
+    padding: 10px 40px;
+    color: #3B0273; 
+    text-decoration: none;
+    border-left: solid 3px #F5E7DC;
+  
+}
+/* activated state for list items */
+nav ul.mynav li.active a {
+    background-color: #FAA16F; 
+    color: #F5E7DC
 }
 
-main ol.cat {
-    color: green;
-    list-style-type: upper-roman;
+/* hover state for list for list items */
+nav ul.mynav li a:hover {
+    background-color: #7C428C;
+    color: #F5E7DC
+    
 }
 
-main dl.cat {
-    color: blue;
-    border: solid 1px rgb(173, 173, 250); 
-    border-radius: 7px;
-    padding: 20px;
-    margin: 50px;
-    background-color: #e9e1be;
+.keepOpen {
+    clear: both;
 }
