@@ -1,0 +1,26 @@
+/* css reset */
+body, p, h1, h2, h3, h4, h5, h6, {
+    padding: 0;
+    margin: 0;
+}
+
+/* box moble fix here */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: 
+    border-box; box-sizing: border-box; }
+
+
+main ul.dog {
+    color: red;
+    list-style: square;
+}
+
+main ol.cat {
+    color: green;
+    list-style-type: upper-roman;
+}
+
+main dl.cat {
+    color: blue;
+    border: solid 1px rgb(173, 173, 250); 
+    border-radius: 7px;
+}
