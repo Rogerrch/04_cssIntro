@@ -1,16 +1,23 @@
 /* css reset */
 
-body,  h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
+    max-width: 100%;
     padding: 0;
     margin: 0;
     font-family: 'Source Sans Pro';
-    background-color: #F5E7DC 
+    background-color: #F5E7DC
 }
-
+.hLink {
+    color: blue;
+}
 header {
     display: flex;
     justify-content: center;
-    
+    background-color: #7C428C;
+    border-bottom: 3px solid #3B0273;
+}
+.levantLogo {
+    filter: drop-shadow(0.5mm 1mm 0.6mm #3B0273);
 }
 
 figcaption {
@@ -18,12 +25,26 @@ figcaption {
     text-align: center;
     padding-right: 40px;
     color: #3B0273; 
+    filter: drop-shadow(0.2mm .6mm 0.3mm #F5E7DC75);
 }
 h1 {
     display: flex;
     justify-content: center;
     margin: 20px;
     padding-right: 40px;
+    color: #3B0273; 
+}
+
+p {
+    margin: 20px;
+    color: #3B0273; 
+}
+blockquote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18pt;
+    font-weight: 100;
     color: #3B0273; 
 }
 /* box model fix here */
@@ -47,6 +68,7 @@ nav ul.mynav li a {
     text-decoration: none;
     border-left: solid 3px #F5E7DC;
     
+    
   
 }
 /* activated state for list items */
@@ -68,11 +90,12 @@ nav ul.mynav li a:hover {
 }
 
 main {
-    background-image: linear-gradient(0deg, #7C428C80 0%, #F5E7DC 85%);   
+    background-image: linear-gradient(0deg, #7C428C80 0%, #F5E7DC 85%);
+    border-top: 3px solid #3B0273;   
 }
 .diagrams {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 20px 0px 20px 0px;
     
@@ -86,15 +109,27 @@ main {
 .example_2 {
     max-width: 500px;
     max-height: auto;
-    padding-top: 45px;
-    
-    
+    padding-top: 45px;  
 }
 
 footer {
+    
     background-color: #7C428C60;
+    border-top: 3px solid #3B0273;  
 }
 h2 {
+    text-align: center;
     font-size: 12pt;
-    background-color: #7C428C35;
+    font-weight: 100;
+    padding-top: 20px;
+    background-color: #7C428C;
+    color: #F5E7DC;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    font-weight: 100;
+    background-color: #3B0273;
+    color: #F5E7DC;
 }
