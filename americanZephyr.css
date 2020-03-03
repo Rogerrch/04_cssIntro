@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6 {
 header {
     display: flex;
     justify-content: center;
-    background-color: #7C428C;
+    background-color: rgb(170, 138, 189);
     border-bottom: 3px solid #3B0273;
 }
 .levantLogo {
@@ -52,7 +52,7 @@ blockquote {
     border-box; box-sizing: border-box; }
 
 nav {
-background-color: #7C428C;
+background-color: rgb(100, 66, 140);
 font-family: "Verdana";
 }
 
