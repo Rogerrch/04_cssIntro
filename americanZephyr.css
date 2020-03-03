@@ -68,25 +68,29 @@ nav ul.mynav li a:hover {
 }
 
 main {
-    background-image: linear-gradient(0deg, #7C428C80 0%, #f1ead4 85%);   
+    background-image: linear-gradient(0deg, #7C428C80 0%, #F5E7DC 85%);   
 }
 .diagrams {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 20px 0px 20px 0px;
-    flex-shrink: 13;
+    
 }
 .example_1 {
     max-width: 500px;
     max-height: auto;
     padding-bottom: 50px;
+    
 }
 .example_2 {
     max-width: 500px;
     max-height: auto;
     padding-top: 45px;
+    
+    
 }
+
 footer {
     background-color: #7C428C60;
 }
