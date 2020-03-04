@@ -36,10 +36,19 @@
         <fieldset>
             <legend>User Information</legend>
             <label><span>Name: </span><input type="text" name="full_name" 
-            class="userinformation" required placeholder="Full Name"/></label><br />
+                class="userinformation" required placeholder="Full Name"/></label><br />
+            <label><span>Address: </span><input type="text" name="address" 
+                class="userinformation" required /></label><br />
+            <label><span>Email: </span><input type="text" name="email" placeholder="email@gmail.com" 
+                class="userinformation" required /></label><br />
+            <label><span>Phone: </span><input type="text" placeholder="888-888-8888" name="phone" 
+                class="userinformation" pattern=" [0-9-. ]" />
+            <br />
         </fieldset>
-<label><span>Address: </span><input type="text" name="address" 
-    class="userinformation" required /></label><br />
+
+        <fieldset>
+            
+        </fieldset>
 
     <label>Credit card Informatio: </label>
     <select name="creditcard" class="familyinformation">

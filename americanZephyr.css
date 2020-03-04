@@ -79,8 +79,8 @@ nav ul.mynav li.active a {
 
 /* hover state for list for list items */
 nav ul.mynav li a:hover {
-    background-color: #64428c;
-    color: #F5E7DC
+    background-color: #aa8abd;
+    color: #3B0273
     
     
 }
