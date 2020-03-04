@@ -13,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6 {
 header {
     display: flex;
     justify-content: center;
-    background-color: rgb(170, 138, 189);
+    background-color: #aa8abd;
     border-bottom: 3px solid #3B0273;
 }
 .levantLogo {
@@ -52,7 +52,7 @@ blockquote {
     border-box; box-sizing: border-box; }
 
 nav {
-background-color: rgb(100, 66, 140);
+background-color: #64428c;
 font-family: "Verdana";
 }
 
@@ -79,7 +79,7 @@ nav ul.mynav li.active a {
 
 /* hover state for list for list items */
 nav ul.mynav li a:hover {
-    background-color: #3B0273;
+    background-color: #64428c;
     color: #F5E7DC
     
     
@@ -91,7 +91,7 @@ nav ul.mynav li a:hover {
 
 main {
     background-image: linear-gradient(0deg, #7C428C80 0%, #F5E7DC 85%);
-    border-top: 3px solid #3B0273;   
+    border-top: 3px solid #64428c;   
 }
 .diagrams {
     display: flex;
@@ -130,6 +130,6 @@ h3 {
     justify-content: center;
     font-size: 10pt;
     font-weight: 100;
-    background-color: #3B0273;
+    background-color: #6442;
     color: #F5E7DC;
 }
