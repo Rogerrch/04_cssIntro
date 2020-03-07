@@ -65,12 +65,17 @@ nav ul.mynav li a {
     display: block;
     padding: 15px 40px;
     color: #F5E7DC; 
-    text-decoration: none;
-    border-left: solid 3px #F5E7DC;
-    
-    
-  
+    text-decoration: none;  
 }
+
+nav ul.mynav li {
+    border-left: solid 3px #F5E7DC;
+}
+
+nav ul.mynav li:last-child {
+    border-right: solid 3px #F5E7DC;
+}
+
 /* activated state for list items */
 nav ul.mynav li.active a {
     background-color: #FAA16F; 
@@ -84,6 +89,12 @@ nav ul.mynav li a:hover {
     
     
 }
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+}
+
 
 .keepOpen {
     clear: both;
