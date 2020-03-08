@@ -17,6 +17,8 @@ header {
     border-bottom: 3px solid #3B0273;
 }
 .levantLogo {
+    max-width: 100%;
+    min-width: 25%;
     filter: drop-shadow(0.5mm 1mm 0.6mm #3B0273);
 }
 
@@ -32,7 +34,7 @@ h1 {
     justify-content: center;
     margin: 20px;
     padding-right: 40px;
-    
+    color: #3B0273; 
 }
 
 p {
@@ -101,7 +103,7 @@ nav ul.mynav li a:hover {
 }
 
 main {
-    background-image: linear-gradient(0deg, #7C428C80 0%, #F5E7DC 85%);
+    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
     border-top: 3px solid #64428c;   
 }
 .diagrams {
@@ -122,25 +124,34 @@ main {
     max-height: auto;
     padding-top: 45px;  
 }
+blockquote {
+    color: #F5E7DC;
+    padding: 10px;
+    background-color: #aa8abd;
+    border-radius: 20px;
+    border: solid 3px #64428c;
+}
 
 footer {
     
-    background-color: #7C428C60;
-    border-top: 3px solid #3B0273;  
+    background-color: #F5E7DC;
+    border-top: 3px solid #aa8abd;  
 }
 h2 {
     text-align: center;
     font-size: 12pt;
     font-weight: 100;
     padding-top: 20px;
-    background-color: #7C428C;
-    color: #F5E7DC;
+    background-color: #F5E7DC;
+    color: #64428c;
+    
 }
 h3 {
     display: flex;
     justify-content: center;
     font-size: 10pt;
     font-weight: 100;
-    background-color: #6442;
+    background-color: #64428c;
     color: #F5E7DC;
+    border-top: solid 3px #aa8abd;
 }
