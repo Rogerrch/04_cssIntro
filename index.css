@@ -1,3 +1,12 @@
+/* style guide 
+Colors
+-Principal colors- #F5E7DC, #aa8abd, #3B0273
+-Dropshadow- #F5E7DC75
+-Active state- #FAA16F
+-hyperlink- blue
+-Font family- 'Source Sans Pro' 
+*/
+
 /* css reset */
 
 body, h1, h2, h3, h4, h5, h6 {
@@ -87,9 +96,7 @@ nav ul.mynav li.active a {
 /* hover state for list for list items */
 nav ul.mynav li a:hover {
     background-color: #aa8abd;
-    color: #3B0273
-    
-    
+    color: #3B0273  
 }
 
 .fixed-top {
