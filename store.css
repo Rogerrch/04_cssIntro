@@ -9,13 +9,7 @@ Colors
 
 /* css reset */
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body, h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   padding: 0;
   margin: 0;
@@ -25,6 +19,8 @@ h6 {
 .hLink {
   color: blue;
 }
+/*Header elements*/
+
 header {
   display: flex;
   justify-content: center;
@@ -44,7 +40,7 @@ figcaption {
   color: #3b0273;
   filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
 }
-
+/* Nav elements */
 #navbar {
   height: 100%;
   display: flex;
@@ -60,21 +56,106 @@ figcaption {
 
 .mynav a {
   color: #f5e7dc;
-  font-style: bold;
-  font-weight: 400;
+  font-weight: 500;
   padding: 15px 40px;
   text-decoration: none;
 }
 .active a {
   background-color: #faa16f;
   color: #3b0273;
+  font-weight: 600;
+  transition: 0.4s;
+  
 }
 
 #navbar a:hover {
   background-color: #aa8abd;
   transition: 0.4s;
+  font-weight: 600;
 }
 a:hover {
   color: #3b0273;
   transition: color, 0.4s;
+}
+
+/* gallay */
+
+body {
+    background-image: linear-gradient(0deg, #64428c 25%, #F5E7DC 25%);
+}
+#product {
+    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 100%);
+    max-width: 100%;
+}
+
+.productList {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly ;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.productList a {
+    list-style-type: none;
+}
+
+.matImage {
+    background-image: linear-gradient(0deg, #64428c 0%, #faa16f 80%);
+    border-radius: 10px 50px 0px 0px;
+    border: solid 3px #64428c;  
+    margin-top: 30px;
+}
+
+figure {
+ text-align: center;
+
+}
+
+.blurb {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    color: #64428c;
+    font: 1rem "Verdana";
+    font-weight: 550;
+    background-image: linear-gradient(0deg, #faa16f80 0%, #F5E7DC 85%);
+    position: relative;
+    bottom: 10px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-radius: 0px 0px 90px 90px;
+    border: solid 3px #64428c; 
+}
+a.blurb {
+    text-decoration: none;
+}
+/* Footer Styling */
+
+footer {
+    background-color: #F5E7DC;
+    border-top: 3px solid #aa8abd;  
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    font-weight: 100;
+    background-color: #64428c;
+    color: #F5E7DC;
+    border-top: solid 3px #aa8abd;
+}
+.lowLevantLogo {
+max-width: 300px;
+padding-top: 20px;
+}
+.tagLine {
+    font-size: .80rem;
+  text-align: center;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: #3b0273;
+  filter: drop-shadow(0.2mm 0.6mm 0.2mm #f5e7dc75);
 }
