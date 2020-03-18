@@ -100,12 +100,6 @@ nav ul.mynav li a:hover {
     color: #3B0273  
 }
 
-.fixed-top {
-    position: fixed;
-    top: 0;
-}
-
-
 .keepOpen {
     clear: both;
 }
