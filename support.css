@@ -9,13 +9,40 @@ Colors
 
 /* css reset */
 
-body, h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6, dl {
     max-width: 100%;
     padding: 0;
     margin: 0;
     font-family: "Source Sans Pro";
-    background-color: #f5e7dc;
+    color: #3b0273;
   }
+
+  main {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+.dog .cat .fish {
+  display: flex;
+    justify-content: center;
+}
+
+  .guppie {
+    font-weight: bold;
+  }
+
+  .roe {
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+  }
+
   .hLink {
     color: blue;
   }
@@ -65,7 +92,6 @@ body, h1, h2, h3, h4, h5, h6 {
     color: #3b0273;
     font-weight: 600;
     transition: 0.4s;
-    
   }
   
   #navbar a:hover {
@@ -78,8 +104,13 @@ body, h1, h2, h3, h4, h5, h6 {
     transition: color, 0.4s;
   }
   
-  /* gallay */
- 
+  /* lists */
+
+body {
+    background-image: linear-gradient(0deg, #64428c 0%, #F5E7DC 85%);
+    border-top: 3px solid #64428c;   
+}
+  
   /* Footer Styling */
   figure {
     text-align: center;
